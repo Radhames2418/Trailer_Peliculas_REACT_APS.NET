@@ -22,3 +22,9 @@ All URIs are relative to _/_
 -   [TrailersAppapi.TrailersListDto](docs/TrailersListDto.md)
 -   [TrailersAppapi.UpdateTrailerDto](docs/UpdateTrailerDto.md)
 -   [TrailersAppapi.UserLoginDto](docs/UserLoginDto.md)
+
+
+# Trailer_aps
+
+Proyecto realizado en grupo con HTML, CSS, Bootsrap, React.js, Sql, y APS.NET
+
