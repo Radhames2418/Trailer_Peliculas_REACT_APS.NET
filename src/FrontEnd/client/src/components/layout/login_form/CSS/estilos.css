@@ -1,0 +1,14 @@
+.form-control{
+    background-color: #363536;
+    border-color: #363536 ;
+    color: white;
+
+}
+
+input::placeholder{
+    color: white !important;
+}
+
+.rounded{
+    border-radius: 15px !important;
+}

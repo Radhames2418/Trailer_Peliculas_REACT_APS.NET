@@ -1,0 +1,18 @@
+.navbar{
+	background-color: #0A070B !important;
+}
+
+.dropdown-left-manual {
+	right: 0;
+	left: auto;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+ul{
+    margin-right: auto;
+}
+
+.form{
+    display: inline;
+}
