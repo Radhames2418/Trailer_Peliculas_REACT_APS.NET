@@ -1,0 +1,250 @@
+/* HEADER */
+.header {
+    height: 50px !important;
+}
+
+.header .navbar {
+    background-color: #0a070b !important;
+}
+
+.header .dropdown-left-manual {
+    right: 0;
+    left: auto;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.header .navbar ul {
+    margin-right: auto;
+}
+
+.header .navbar .form {
+    display: inline;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header .login {
+    height: 40px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/******************************************************************************/
+/* LOGIN FORM */
+.login-form .form-control {
+    background-color: #363536;
+    border-color: #363536;
+    color: white;
+}
+
+.login-form input::placeholder {
+    color: white !important;
+}
+
+.login-form .rounded {
+    border-radius: 15px !important;
+}
+
+/******************************************************************************/
+/* TRAILER CARD */
+.trailer-card {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.trailer-card:hover {
+    transform: scale(1.05);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-title {
+    color: #fff;
+    position: relative;
+    top: -15%;
+    left: 3%;
+    font-size: 1.4rem;
+}
+
+/******************************************************************************/
+/* TRAILERS */
+.trailers {
+    margin-top: 50px;
+    padding: 1% 5%;
+}
+
+.trailers h2 {
+    color: #fff;
+    z-index: -1000;
+    margin-bottom: 2rem;
+}
+.feed {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2rem;
+}
+
+/******************************************************************************/
+/* BANNER */
+.banner {
+    padding: 0 1.5rem;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.banner video {
+    height: 80vh;
+    position: absolute;
+    top: 70px;
+    left: 0%;
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+    opacity: 0.8;
+}
+
+.banner-description {
+    margin-left: 4%;
+    margin-top: 300px;
+    width: 40rem;
+    z-index: 3;
+}
+
+.banner-description h2 {
+    color: #fff;
+}
+
+.banner-description p {
+    color: rgb(168, 168, 168);
+}
+
+/******************************************************************************/
+/* TRAILER DETAIL */
+.trailer-detail {
+    background-color: #0a070b !important;
+    padding: 1% 5%;
+}
+
+/******************************************************************************/
+/* HOME */
+.home {
+    background-color: #0a070b !important;
+    margin: auto;
+}
+
+.main {
+    background-color: #0a070b !important;
+}
+
+/******************************************************************************/
+/* TRAILERS TABLE */
+.dashboard {
+    min-height: 800px;
+    background-color: #0a070b !important;
+}
+.trailer-table .add {
+    margin-left: 95.7%;
+}
+
+.trailer-table {
+    padding: 5%;
+}
+.table-form {
+    margin-left: 50%;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.trailer-table .icons {
+    margin-left: 50%;
+}
+
+.trailer-table .data {
+    margin: 30px 0;
+}
+
+.trailer-table i {
+    margin: 35px 0;
+    padding: 0 0.6rem;
+}
+
+.trailer-table i {
+    font-size: 1.2rem;
+}
+
+.trailer-table .delete:hover {
+    transform: scale(1.1);
+}
+
+.trailer-table .edit:hover {
+    transform: scale(1.1);
+}
+
+.table-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+}
+
+/******************************************************************************/
+/* MOVIE DETAILS */
+.movie-details {
+    margin-top: 2rem;
+}
+.movie-details .font {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+.movie-details .color {
+    color: #807e81;
+}
+
+.movie-details .container-fluid {
+    background-color: #0a070b;
+}
+
+/* FOOTER */
+/******************************************************************************/
+.footer .borderletra {
+    border: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: #4f4e50;
+}
+
+.footer .borderimg {
+    border: 1px;
+    border-right-style: solid;
+    border-color: #4f4e50;
+}
+
+.footer a:hover {
+    color: #f9cc0d;
+}
+
+.footer .enlaces {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer .Follow {
+    color: #807e81;
+}
+
+footer {
+    background-color: #0a070b;
+}
